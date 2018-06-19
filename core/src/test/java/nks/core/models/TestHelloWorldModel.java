@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package AEMMaven13.core.models;
+package nks.core.models;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -23,6 +23,7 @@ import static org.mockito.Mockito.when;
 import java.util.UUID;
 
 import junitx.util.PrivateAccessor;
+import nks.core.models.HelloWorldModel;
 
 import org.apache.sling.settings.SlingSettingsService;
 import org.junit.Before;

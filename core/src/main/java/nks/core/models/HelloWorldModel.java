@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package AEMMaven13.core.models;
+package nks.core.models;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
@@ -33,7 +33,7 @@ public class HelloWorldModel {
     @Inject @Named("sling:resourceType") @Default(values="No resourceType")
     protected String resourceType;
 
-    private String message;
+    public String message;
 
     @PostConstruct
     protected void init() {
